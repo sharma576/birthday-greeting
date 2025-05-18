@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Happy Birthday!</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🎉 Happy Birthday, <span id="name">Your Friend</span>! 🎉</h1>
+    <p class="message">
+      Wishing you joy, laughter, and all the cake you can eat. 🎂<br>
+      Click the gift below for a surprise!
+    </p>
+    
+    <div class="gift-box" onclick="showSurprise()">
+      🎁
+    </div>
+
+    <div class="surprise" id="surprise">
+      <h2>💌 Here's a little something for you!</h2>
+      <p>You are amazing, and this world is better with you in it. Keep shining! 🌟</p>
+      <img src="https://i.imgur.com/o9jO6gE.png" alt="Happy Birthday" />
+    </div>
+  </div>
+
+  <canvas id="confetti"></canvas>
+  <script src="script.js"></script>
+</body>
+</html>
